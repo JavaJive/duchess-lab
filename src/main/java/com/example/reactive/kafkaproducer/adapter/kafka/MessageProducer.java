@@ -25,7 +25,7 @@ public class MessageProducer {
   private static final Integer UNSPECIFIED_PARTITION = null;
   private static final String UNSPECIFIED_KEY = null;
 
-  private static final String TOPIC = "msg-sent";
+  private static final String TOPIC = "daily-quotes";
 
   public MessageProducer(KafkaSender<String, String> kafkaSender) {
     this.kafkaSender = kafkaSender;
