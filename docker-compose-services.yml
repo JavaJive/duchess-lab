@@ -5,10 +5,10 @@ services:
   producer:
     image: producer:latest
     ports:
-      - "8081:8282"
+      - "8081:8081"
 
     
   consumer:
     image: consumer:latest
     ports:
-      - "8082:8383"
+      - "8082:8082"
