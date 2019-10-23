@@ -10,7 +10,7 @@
   </parent>
 
   <groupId>com.example.reactive.kafkaproducer</groupId>
-  <artifactId>kafka-producer</artifactId>
+  <artifactId>jduchess-2019-producer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>kafka-producer</name>
   <description>Demo Project for a reactive Kafka Producer</description>
