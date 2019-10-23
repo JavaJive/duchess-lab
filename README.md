@@ -37,6 +37,8 @@ installation is required.
 
 - Convert the received message to all upper case
 
+- Transform the received message mono to a flux that emits the words in the string one by one
+
 ## How to send a message to Kafka
 
 Make the producer send a message to Kafka by making a rest call to `http://localhost:8081/publish`.
